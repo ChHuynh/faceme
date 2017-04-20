@@ -5,7 +5,8 @@ RSpec.describe Faceme do
     expect(Faceme::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "prints a riot emoji with text" do
+  	expect(Faceme.riot("hello")).to eq("༼ つ ◕_◕ ༽つhello༼ つ ◕_◕ ༽つ")
   end
+
 end
