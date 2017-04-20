@@ -1,8 +1,8 @@
 require "faceme/version"
 
 module Faceme
-  def self.riot
-    p	"༼ つ ◕_◕ ༽つhello༼ つ ◕_◕ ༽つ"
+  def self.riot(words)
+    p	"༼ つ ◕_◕ ༽つ#{words}༼ つ ◕_◕ ༽つ"
   end
 
   def self.lenny
@@ -14,7 +14,7 @@ module Faceme
   end
 
   def self.shrug
-  	p "¯\\_(ツ)_/¯"
+  	p "¯\_(ツ)_/¯"
   end
 
   def self.tableflip
@@ -33,26 +33,26 @@ module Faceme
   	p "(＃`Д´)"
   end
 
-  def self.sweatdrop
-  	p "(；￣Д￣）"
-  end
-
-
-  def self.devious
-  	p "( ` ω ´ )"
-  end
-
-  def self.wave
-  	p "(=ﾟωﾟ)ﾉ"
-  end
-
-  def self.twoface
-  	p "(ﾟДﾟ≡ﾟДﾟ)"
-  end
-
   def self.angry3
   	p "(*´>д<)"
   end
+ 
+  def self.sweatdrop
+    p "(；￣Д￣）"
+  end
+
+  def self.devious
+    p "( ` ω ´ )"
+  end
+
+  def self.wave
+    p "(=ﾟωﾟ)ﾉ"
+  end
+
+  def self.twoface
+    p "(ﾟДﾟ≡ﾟДﾟ)"
+  end
+
 
   def self.chill
   	p "Σ(=ω= ;)"

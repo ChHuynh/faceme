@@ -1,8 +1,6 @@
 # Faceme
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/faceme`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+this gem is to drop some fun emojis into whatever. want to make a silly error message? this gem can help with that!
 
 ## Installation
 
@@ -22,18 +20,48 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+	Faceme.riot("hello")
+	> "༼ つ ◕_◕ ༽つhello༼ つ ◕_◕ ༽つ"
 
-## Development
+	Faceme.lenny
+	> "( ͡° ͜ʖ ͡°)"
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+	Faceme.disapproval
+	> "ಠ_ಠ"
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+	Faceme.tableflip
+	> "(╯°□°）╯︵ ┻━┻"
+	Faceme.unflip
+	> "┬─┬﻿ ノ( ゜-゜ノ)"
 
-## Contributing
+	Faceme.angry
+	> "( ≧Д≦)"
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/faceme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+	Faceme.angry2
+	> "(＃`Д´)"
+	Faceme.angry3
+	> "(*´>д<)"
+	Faceme.sweatdrop
+	> "(；￣Д￣）"
 
+	Faceme.devious
+	> "( ` ω ´ )"
+
+	Faceme.wave
+	> "(=ﾟωﾟ)ﾉ"
+
+	Faceme.twoface
+	> "(ﾟДﾟ≡ﾟДﾟ)"
+
+	Faceme.chill
+	> "Σ(=ω= ;)"
+
+	Faceme.happy
+	> "(::^ω^::)"
+
+	
+
+will update with more at some point..
 
 ## License
 
