@@ -2,64 +2,65 @@ require "faceme/version"
 
 module Faceme
   def self.riot(words)
-    p	"༼ つ ◕_◕ ༽つ#{words}༼ つ ◕_◕ ༽つ"
+    return	"༼ つ ◕_◕ ༽つ#{words}༼ つ ◕_◕ ༽つ"
   end
 
   def self.lenny
-  	p "( ͡° ͜ʖ ͡°)"
+  	return "( ͡° ͜ʖ ͡°)"
   end
 
   def self.disapproval
-  	p "ಠ_ಠ"
-  end
-
-  def self.shrug
-  	p "¯\_(ツ)_/¯"
+  	return "ಠ_ಠ"
   end
 
   def self.tableflip
-  	p "(╯°□°）╯︵ ┻━┻"
+  	return "(╯°□°）╯︵ ┻━┻"
   end
 
   def self.unflip
-  	p "┬─┬﻿ ノ( ゜-゜ノ)"
+  	return "┬─┬﻿ ノ( ゜-゜ノ)"
   end
 
   def self.angry
-  	p "( ≧Д≦)"
+  	return "( ≧Д≦)"
   end
 
   def self.angry2
-  	p "(＃`Д´)"
+  	return "(＃`Д´)"
   end
 
   def self.angry3
-  	p "(*´>д<)"
+  	return "(*´>д<)"
   end
  
   def self.sweatdrop
-    p "(；￣Д￣）"
+    return "(；￣Д￣）"
   end
 
   def self.devious
-    p "( ` ω ´ )"
+    return "( ` ω ´ )"
   end
 
   def self.wave
-    p "(=ﾟωﾟ)ﾉ"
+    return "(=ﾟωﾟ)ﾉ"
   end
 
   def self.twoface
-    p "(ﾟДﾟ≡ﾟДﾟ)"
+    return "(ﾟДﾟ≡ﾟДﾟ)"
   end
 
 
   def self.chill
-  	p "Σ(=ω= ;)"
+  	return "Σ(=ω= ;)"
   end
 
   def self.happy
-  	p "(::^ω^::)"
+  	return "(::^ω^::)"
+  end
+
+  def self.random
+    faces = [happy, chill, twoface, wave, devious, sweatdrop, angry, angry2, angry3, unflip, tableflip, disapproval, lenny]
+    return faces.sample
   end
 
 
