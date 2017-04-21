@@ -20,6 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
+	each method returns a face.
+
 	Faceme.riot("hello")
 	> "༼ つ ◕_◕ ༽つhello༼ つ ◕_◕ ༽つ"
 
@@ -59,7 +61,8 @@ Or install it yourself as:
 	Faceme.happy
 	> "(::^ω^::)"
 
-	
+	Faceme.random
+	returns a random face
 
 will update with more at some point..
 
